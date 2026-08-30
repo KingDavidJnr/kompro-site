@@ -4,7 +4,7 @@
   "private": true,
   "description": "Landing page for the Kompro open-source compliance platform.",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
+    "dev": "node dev-server.js",
+    "start": "node dev-server.js"
   }
 }
