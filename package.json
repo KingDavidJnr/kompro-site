@@ -1,0 +1,10 @@
+{
+  "name": "kompro-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page for the Kompro open-source compliance platform.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  }
+}

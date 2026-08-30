@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kompro | Self-hosted compliance management</title>
+  <meta name="description" content="Kompro is open-source, self-hosted, framework-agnostic compliance management. Define, assess, and prove your compliance posture on infrastructure you control." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <img src="kompro-logo.png" alt="Kompro" class="brand-logo" />
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#features">Features</a>
+        <a href="#why">Why self-host</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-primary" href="https://github.com/KingDavidJnr/kompro" target="_blank" rel="noopener">View on GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="container hero-inner">
+        <p class="eyebrow">Open source · Self-hosted · AGPL v3</p>
+        <h1 class="hero-title">Compliance management that stays on <span class="accent">your</span> infrastructure</h1>
+        <p class="hero-sub">Kompro helps organizations define, assess, and continuously maintain their compliance posture without handing their data to a third party. Framework agnostic, evidence driven, and yours to control.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="https://github.com/KingDavidJnr/kompro" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section reveal">
+      <div class="container">
+        <h2 class="section-title">Everything you need to stay audit ready</h2>
+        <p class="section-lede">One platform for policies, controls, evidence, risk, and audits. Built so your compliance state is the single source of truth.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Self-hosted by design</h3>
+            <p>Run Kompro on Postgres you provision. Your compliance data never leaves your own database or your own network.</p>
+          </article>
+          <article class="card">
+            <h3>Framework agnostic</h3>
+            <p>Start from ISO 27001, SOC 2, or GDPR, or model your own structure. Map one control across many frameworks.</p>
+          </article>
+          <article class="card">
+            <h3>Evidence driven</h3>
+            <p>Link evidence to controls and assessments with a full history, so every claim is backed by proof.</p>
+          </article>
+          <article class="card">
+            <h3>Risk and incidents</h3>
+            <p>Track risks, treatment plans, and security incidents in the same system your auditors already trust.</p>
+          </article>
+          <article class="card">
+            <h3>Audit programs</h3>
+            <p>Plan internal and external audits, capture nonconformities, and close corrective actions with a clear trail.</p>
+          </article>
+          <article class="card">
+            <h3>Open source</h3>
+            <p>Licensed under AGPL v3. Inspect the code, modify it, and deploy it yourself with no vendor lock-in.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section section-alt reveal">
+      <div class="container why-inner">
+        <div>
+          <h2 class="section-title left">Why self-host your compliance stack</h2>
+          <p class="section-lede left">Compliance data is among the most sensitive information an organization holds. Kompro keeps it within your perimeter.</p>
+          <ul class="check-list">
+            <li>You own the database and the credentials.</li>
+            <li>No external service sits between you and your evidence.</li>
+            <li>Deploy on your own Linux host, or split frontend and API across providers.</li>
+            <li>Harden it to your own standards, documented in the project security guide.</li>
+          </ul>
+        </div>
+        <div class="why-card">
+          <p class="why-quote">The organization's compliance state is the source of truth. Frameworks are just different views over it.</p>
+          <p class="why-by">Kompro design principle</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="container contact-inner">
+        <h2 class="section-title">Get in touch</h2>
+        <p class="section-lede">Questions about self-hosting, deployment, or the project? Reach out directly.</p>
+        <a class="btn btn-primary btn-lg" href="mailto:me@davidoduse.com">Contact Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer reveal">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="kompro-logo.png" alt="Kompro" class="brand-logo" />
+      </div>
+      <p class="footer-note">An open-source project by David Oduse. &copy; <span id="year">2026</span> All rights reserved.</p>
+      <a class="footer-link" href="https://github.com/KingDavidJnr/kompro" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
